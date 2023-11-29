@@ -1,0 +1,129 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+
+
+nav{
+    padding: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+
+nav a{
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav a:hover, nav a:focus     {
+    animation-name: alek;
+    animation-duration: 1s;
+    
+}
+
+
+
+
+p img:hover{
+    
+    width: 405px;
+    height: 240px;
+
+    
+}
+
+/* @keyframes scale{
+    from {transform: scale(100%)}
+    to {transform: scale(105%)}
+} */
+
+@keyframes alek{
+    from{font-size: 20px;}
+    to{font-size: 22px;}
+}
+
+
+
+img{
+   border-style: solid;
+   border-radius: 4%;
+   border-color: rgb(0, 0, 0);
+   margin: 20px;
+   width: 400px;
+   height: 233px;
+   transition: 0.3s;
+   
+}
+
+.alinhar{
+    display: inline-block;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+iframe{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+    
+}
+
+header{
+    background-color: rgb(255, 196, 0);
+}
+
+
+
+footer{
+    width: 85%;
+    
+}
+
+.lista{
+    initial-letter: 60%;
+    border-style: solid;
+    
+   
+    
+    
+    
+    
+}
+
+h2{
+    font-size: 30px;
+}
+
+.sobre{
+    font-size: large;
+    text-align: center;
+    width: 80%;
+}
+
+#Logo{
+    width: 200px;
+    height: 200px;
+    border-style: solid ;
+    border-color: rgba(0, 0, 0, 0.678);
+    border-width: 2px;
+}
+
